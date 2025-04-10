@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box img{
+    height: 200px;
+    box-shadow: inset 2px 2px 50px 5px rgb(86, 86, 86);
+}
+
+.box img:hover{
+    box-shadow: inset 5px 5px 60px 7px  black;
+}
+
+.box{
+    height: 200px;
+    border: 2px solid rgb(182, 182, 252);
+    border-radius: 8px;
+   cursor: pointer;
+ 
+}
+
+p{
+    color: rgb(108, 108, 248);
+    text-align: center;
+}
+
+h1{
+    color: rgb(108, 108, 248);
+    margin-left: 30px;
+}
+
+.sunset{
+    height: 200px;
+}
