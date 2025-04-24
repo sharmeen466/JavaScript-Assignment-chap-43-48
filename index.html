@@ -11,14 +11,14 @@
 <body>
     <!-- .............................CHAP # 43-48 START...................................... -->
 
-    <!-- Q   #   1 -->
+    <h1>Q   #   1</h1>
 
-    <button onclick="greet()">Click Me!</button>
+    <button class="btn" onclick="greet()">Click Me!</button>
     <br> <br><br>
 
-    <!-- Q   #   2 -->
+    <h1>Q   #   2</h1>
 
-    <h1>Mobile Phone Lookup</h1>
+    <h1 class="heading">Mobile Phone Lookup</h1>
     <div class="container">
         <div class="box"><img src="./images/images-removebg-preview.png" alt=""
                 style="padding-left: 30px ; padding-right: 30px;" onclick="mobile()">
@@ -40,10 +40,51 @@
     </div>
     <br> <br><br>
 
-    <!-- Q   #   4 -->
+    <h1>Q   #   3</h1>
+
+    <table>
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+        </tr>
+        <tr class="display">
+            <td class="index">0</td>
+            <td>Jhone</td>
+            <td>10</td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+        <tr class="display">
+            <td class="index">1</td>
+            <td>Doe</td>
+            <td>9</td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+        <tr class="display">
+            <td class="index">2</td>
+            <td>Mark</td>
+            <td>10</td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+        <tr class="display">
+            <td class="index">3</td>
+            <td>James</td>
+            <td>8</td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+    </table>
+
+    <h1>Q   #   4</h1>
 
   <img class="sunset" src="./images/sunset.jpg" alt="" onmouseover="src='./images/sunrise.jpg'" onmouseout="src='./images/sunset.jpg'">
 
+  <h1>Q    #    5</h1>
+
+  <div id="counter">
+    <button id="dec">Decrease</button>
+    <div id="container">0</div>
+    <button id="inc">Increase</button>
+  </div>
 
     <script src="./app.js"></script>
 </body>

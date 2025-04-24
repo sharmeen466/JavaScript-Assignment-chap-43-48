@@ -1,3 +1,9 @@
+.btn{
+    padding: 20px 30px;
+    font-size: 2rem;
+    margin: 20px;
+}
+
 .container{
     display: flex;
     justify-content: space-around;
@@ -26,7 +32,7 @@ p{
     text-align: center;
 }
 
-h1{
+.heading{
     color: rgb(108, 108, 248);
     margin-left: 30px;
 }
@@ -36,4 +42,21 @@ h1{
     width: 300px;
     border-radius: 10px;
     margin-left: 300px;
+}
+
+.hidden{
+    display: none;
+}
+
+#container{
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#counter{
+    margin-bottom: 100px;
+    display: flex;
 }
